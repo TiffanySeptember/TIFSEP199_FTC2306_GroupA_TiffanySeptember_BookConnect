@@ -308,7 +308,9 @@ dataListItems.forEach(function (element) {
 
     // Populate the book details in the overlay
     overlayTitle.textContent = active.title;
-    overlaySubtitle.textContent = `Author: ${authors[active.author]}`;
+    overlaySubtitle.textContent = `Author: ${
+      authors[active.author]
+    } (${new Date(active.published).getFullYear()})`;
     overlayDescription.textContent = active.description;
     overlayImage.src = active.image;
     overlayImage.alt = active.title;
