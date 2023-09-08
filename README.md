@@ -14,3 +14,5 @@
  * Javascript
  * html
  * css
+# Presentation :
+https://docs.google.com/presentation/d/1JJ8tbGUJpIjUTQde9gG8p6nDBZ-ZVbhmoP2FXt99sWg/edit?usp=sharing
